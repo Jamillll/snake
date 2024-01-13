@@ -1,0 +1,20 @@
+﻿  EntryPoint.cpp
+C:\Programs\snake\source\rendering\renderer.h(21,19): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\snake\source\Logic\Grid.h(37,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\snake\source\Logic\Grid.h(72,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\snake\source\Logic\Grid.h(72,21): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\snake\source\Logic\Grid.h(72,18): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\snake\source\Logic\AppleManager.h(26,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+  snake.vcxproj -> C:\Programs\snake\x64\Debug\snake.exe
