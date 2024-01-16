@@ -40,8 +40,25 @@ public:
 			{
 				player->toAddPart = true;
 
-				apples[i].x = rand() % 20;
-				apples[i].y = rand() % 20;
+				while (true)
+				{
+					apples[i].x = rand() % 20;
+					apples[i].y = rand() % 20;
+
+					for (size_t j = 0; j < player->snakeList.size(); j++)
+					{
+						if (apples[i].x == player->snakeList[i].x &&
+							apples[i].y == player->snakeList[i].y)
+						{
+							apples[i].x = rand() % 20;
+							apples[i].y = rand() % 20;
+
+							continue;
+						}
+					}
+
+					break;
+				}
 			}
 		}
 	}

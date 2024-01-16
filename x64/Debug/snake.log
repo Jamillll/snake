@@ -1,20 +1,73 @@
 ﻿  EntryPoint.cpp
-C:\Programs\snake\source\rendering\renderer.h(21,19): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(37,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'source/EntryPoint.cpp')
   
-C:\Programs\snake\source\Logic\Grid.h(37,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(78,39): warning C4305: 'argument': truncation from 'double' to 'float'
   (compiling source file 'source/EntryPoint.cpp')
   
-C:\Programs\snake\source\Logic\Grid.h(72,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(78,33): warning C4305: 'argument': truncation from 'double' to 'float'
   (compiling source file 'source/EntryPoint.cpp')
   
-C:\Programs\snake\source\Logic\Grid.h(72,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(78,27): warning C4305: 'argument': truncation from 'double' to 'float'
   (compiling source file 'source/EntryPoint.cpp')
   
-C:\Programs\snake\source\Logic\Grid.h(72,18): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(78,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'source/EntryPoint.cpp')
   
-C:\Programs\snake\source\Logic\AppleManager.h(26,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(78,21): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'source/EntryPoint.cpp')
   
-  snake.vcxproj -> C:\Programs\snake\x64\Debug\snake.exe
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(80,43): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(80,37): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(80,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(80,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(80,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(86,39): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(86,33): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(86,27): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(86,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(86,21): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(88,43): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(88,37): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(88,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(88,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\Grid.h(88,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\Logic\AppleManager.h(26,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'source/EntryPoint.cpp')
+  
+C:\Programs\SnakeGL\snake\source\EntryPoint.cpp(55,96): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Programs\SnakeGL\snake\source\EntryPoint.cpp(55,86): warning C4305: 'argument': truncation from 'double' to 'float'
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  snake.vcxproj -> C:\Programs\SnakeGL\snake\x64\Debug\snake.exe

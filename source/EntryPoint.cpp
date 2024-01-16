@@ -52,7 +52,7 @@ int main()
         {
             if (player.alive == true)
             {
-                mainGrid.SetCellColour(player.snakeList[i].x, player.snakeList[i].y, 0.7f, 1.0f, 0.0f);
+                mainGrid.SetCellColour(player.snakeList[i].x, player.snakeList[i].y, 0.1, 0.5, 0.1);
             }
             else
             {

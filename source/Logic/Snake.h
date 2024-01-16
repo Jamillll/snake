@@ -127,7 +127,7 @@ private:
 
 	void getPlayerInput(GLFWwindow* window)
 	{
-		if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+		if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && snakeList[0].directionY != -1)
 		{
 			snakeList[0].directionY = 1;
 			snakeList[0].directionX = 0;
@@ -140,7 +140,7 @@ private:
 			hasStarted = true;
 		}
 
-		else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+		else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && snakeList[0].directionY != 1)
 		{
 			snakeList[0].directionY = -1;
 			snakeList[0].directionX = 0;
@@ -153,7 +153,7 @@ private:
 			hasStarted = true;
 		}
 
-		else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+		else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS && snakeList[0].directionX != 1)
 		{
 			snakeList[0].directionX = -1;
 			snakeList[0].directionY = 0;
@@ -166,7 +166,7 @@ private:
 			hasStarted = true;
 		}
 
-		else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+		else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS && snakeList[0].directionX != -1)
 		{
 			snakeList[0].directionX = 1;
 			snakeList[0].directionY = 0;

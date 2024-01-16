@@ -18,7 +18,7 @@ public:
 	Renderer(GLFWwindow* window)
 	{
 		targetWindow = window;
-		glClearColor(0, 0.3, 0, 1);
+		glClearColor(0, 0, 0, 1);
 
 		const char* vertexShaderPath = "source\\rendering\\shaders\\VertexShader.shader";
 		const char* fragmentShaderPath = "source\\rendering\\shaders\\FragmentShader.shader";

@@ -1,1 +1,2 @@
 C:\Programs\snake\x64\Debug\snake.exe
+C:\Programs\SnakeGL\snake\x64\Debug\snake.exe

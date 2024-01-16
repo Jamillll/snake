@@ -67,10 +67,38 @@ public:
 
 	void Update()
 	{
-		for (size_t i = 0; i < 400; i++)
+		for (size_t y = 0; y < axisLength; y++)
 		{
-			SetCellColour(i, 0.1, 0.5, 0.1);
+			for (size_t x = 0; x < axisLength; x++)
+			{
+				if (y % 2 == 0)
+				{
+					if (x % 2 == 0)
+					{
+						SetCellColour(x, y, 0.63, 0.81, 0.28);
+					}
+					else SetCellColour(x, y, 0.53, 0.71, 0.18);
+				}
+				else 
+				{
+					if (x % 2 != 0)
+					{
+						SetCellColour(x, y, 0.63, 0.81, 0.28);
+					}
+					else SetCellColour(x, y, 0.53, 0.71, 0.18);
+				}
+			}
 		}
+
+		//for (size_t i = 0; i < 400; i++)
+		//{
+		//	if (i % 2 == 0)
+		//	{
+		//		SetCellColour(i, 0.63, 0.81, 0.28);
+		//	}
+		//	else SetCellColour(i, 0.53, 0.71, 0.18);
+		//	//0.66, 0.84, 0.31
+		//}
 	}
 
 	void SetCellColour(int x, int y, float r, float g, float b)
